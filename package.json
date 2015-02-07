@@ -1,0 +1,25 @@
+{
+  "name": "node-hello-world",
+  "version": "1.0.0",
+  "private": true, 
+  "description": "node hello world,
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tjmehta/node-hello-world.git"
+  },
+  "keywords": [],
+  "author": "Tejesh Mehta",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tjmehta/node-hello-world/issues"
+  },
+  "homepage": "https://github.com/tjmehta/node-hello-world",
+  "dependencies": {
+  },
+  "devDependencies": {
+  }
+}
