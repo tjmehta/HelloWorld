@@ -2,10 +2,10 @@
   "name": "node-hello-world",
   "version": "1.0.0",
   "private": true, 
-  "description": "node hello world,
+  "description": "node hello world",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
