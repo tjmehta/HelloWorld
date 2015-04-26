@@ -1,4 +1,4 @@
-FROM dockerfile/nodejs
+FROM node
 ADD . /node-hello-world
 ENV PORT 80
 EXPOSE 80
