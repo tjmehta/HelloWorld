@@ -18,3 +18,9 @@ process.on('SIGTERM', console.log.bind(console, 'SIGTERM'));
 process.on('SIGTERM', console.log.bind(console, 'SIGTERM'));
 process.on('SIGTERM', console.log.bind(console, 'SIGTERM'));
 process.on('SIGTERM', console.log.bind(console, 'SIGTERM'));
+
+if (process.env.ERROR_TIMEOUT) {
+  setTimeout(function () {
+    throw new Error('die');
+  }, process.env.ERROR_TIMEOUT);
+}

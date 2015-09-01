@@ -1,11 +1,11 @@
 {
   "name": "node-hello-world",
   "version": "1.0.0",
-  "private": true, 
+  "private": true,
   "description": "node hello world",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node --abort-on-uncaught-exception server.js"
   },
   "repository": {
     "type": "git",
